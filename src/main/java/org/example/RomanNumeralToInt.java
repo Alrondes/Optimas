@@ -2,18 +2,10 @@ package org.example;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Scanner;
 
-public class RomanNeumeralToInt {
-    public static void GetRomanNumeral() {
-        Scanner getRomanNumeral = new Scanner(System.in);
-        System.out.println("Enter Roman Numeral");
-        String romanNumeral = getRomanNumeral.nextLine().toUpperCase();
-        Integer returnedNumber = RomanNeumeralT0Int(romanNumeral);
-        System.out.println(returnedNumber);
-    }
+public class RomanNumeralToInt {
 
-    public static Integer RomanNeumeralT0Int(String InputRomanNumeral) {
+    public static Integer RomanNumeralT0Int(String InputRomanNumeral) {
         String romanNumeral = InputRomanNumeral;
         int number = 0; //initialize output integer
 
